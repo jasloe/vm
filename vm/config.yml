@@ -16,6 +16,8 @@ drupal_enable_modules:
   - features
   - features_ui
   - google_analytics
+  - search_api
+  - search_api_solr_multilingual
   - token
   - toolbar_anti_flicker
   - views
