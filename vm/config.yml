@@ -16,6 +16,7 @@ drupal_enable_modules:
   - features
   - features_ui
   - google_analytics
+  - paragraphs
   - search_api
   - search_api_solr_multilingual
   - token
