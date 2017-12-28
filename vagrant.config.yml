@@ -33,4 +33,4 @@ firewall_allowed_tcp_ports:
 firewall_log_dropped_packets: false
 
 php_version: "7.1"
-php_memory_limit: "1024M"
+php_memory_limit: "512M"
