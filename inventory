@@ -1,2 +1,2 @@
-[drupalvm]
-0.0.0.0 ansible_ssh_user=
+[local]
+localhost ansible_connection=local
