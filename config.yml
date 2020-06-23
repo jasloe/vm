@@ -5,15 +5,10 @@ drupal_build_composer: false
 drupal_composer_dependencies: []
 
 # Drupal install settings.
-drupal_site_name: ""
+drupal_site_name: "Drupal"
 drupal_core_path: "/var/www/drupal/web"
 drupal_install_site: true
 drupal_enable_modules: []
-
-#drupalvm_cron_jobs:
-#  - name: "Drupal Cron"
-#    minute: "*/15"
-#    job: "{{ drush_path }} -r {{ drupal_core_path }} core-cron --quiet"
 
 # Other overrides.
 php_version: "7.2"
@@ -22,8 +17,7 @@ installed_extras:
   - drush
 
 # Other secure defaults.
-dashboard_install_dir: ''
-apache_packages_state: installed
+dashboard_install_dir: ""
 
 # Restrict the firewall to only ports that are required for external services.
 firewall_allowed_tcp_ports:
@@ -31,8 +25,3 @@ firewall_allowed_tcp_ports:
   - "80"
   - "443"
 firewall_log_dropped_packets: true
-
-mysql_packages:
-  - mariadb-client
-  - mariadb-server
-  - python-mysqldb
