@@ -25,3 +25,5 @@ firewall_allowed_tcp_ports:
   - "80"
   - "443"
 firewall_log_dropped_packets: true
+
+ansible_python_interpreter: /usr/local/bin/python3
